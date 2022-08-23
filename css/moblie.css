@@ -1,18 +1,73 @@
 
 /*데탑*/
 @media screen and (max-width:1440px) {
+
+  #roadmap {
+    padding: 110px 0;
+  }
+
+  #contact_us h4 {
+    color: #222222 !important;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+  
 }
 
 
 
 /*노트북*/
   @media screen and (max-width:1024px) {
+
+    #contact_us h3{
+      border-radius: 8px;
+      font-size: 2em;
+    }
+
+    #contact_us h4{
+      margin-top: 11%;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .contactus_container{
+      margin-top: 5%;
+    }
+
+    .reach{
+      height: 70%;
+    }
+    .reach_wrap li:nth-child(3){
+      font-size: 0.9em;
+      text-align: center;
+      margin-top: 10%;
+    }
+
+    .sns_icon {
+      gap: 0%;
+    }
+
+    #contact_us .sns_icon .sns img {
+      width: 55%;
+      cursor: pointer;
+  }
 }
 
 
 
   /*아이패드 (768px)*/
   @media screen and (max-width:991px) {
+
+    .reach_wrap li:nth-child(3){
+      font-size: 0.8em;
+    }
+
+    #contact_us h3{
+      font-size: 1.6em;
+      height: 50px;
+    }
 }
 
 
@@ -21,6 +76,56 @@
 
 @media screen and (max-width:767px) {
 
+  .rdmap_wrap{
+    border-radius: 20px;
+  }
+
+  .rdmap_wrap>.rdmap_img {
+    width: 90%;
+  }
+
+  .rdmap_img {
+    display: none;
+  }
+
+  .rdmap_img_mb {
+    display: block;
+    width: 100%;
+  }
+
+  .rdmap_img_mb img {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .reach_wrap li:nth-child(3){
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  #cen_con h3{
+    font-size: 1.4em;
+  }
+
+  #contact_us h3{
+    font-size: 1.4em;
+    height: 50px;
+  }
+
+  .cen_con h3{
+    font-size: 30px;
+  }
+  
+  #contact_us .sns_icon .sns img {
+    width: 45%;
+    cursor: pointer;
+}
+
+  #contact_us .sns_icon .sns img {
+    max-width: 45px;
+    margin-left: 25%;
+  }
 }
 
 
@@ -28,6 +133,33 @@
 
 
 @media screen and (max-width:576px) {
+
+  .contactus_container{
+    display: block;
+  }
+
+  .reach{
+    width: 60%;
+    margin: 0 auto;
+    padding: 6% 0 3%;
+    margin-bottom: 5%;
+  }
+
+  #contact_us h3{
+    font-size: 1.2em;
+    height: 50px;
+    margin-top: 20%;
+  }
+
+  #contact_us h4{
+    margin-top: 35%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .cen_con h3{
+    font-size: 25px;
+  }
 
 }
 
@@ -37,6 +169,14 @@
 
   @media screen and (max-width:425px) {
 
+    #contact_us {
+      background-position: -240px 0;
+      padding: 10% 0;
+    }
+    #contact_us h3{
+    font-size: 1.3em;
+    height: 50px;
+    }
 }
 
 
@@ -44,4 +184,29 @@
 /*모바일4 아이폰*/
     @media screen and (max-width:375px) {
 
+      #roadmap h3{
+        font-size: 25px;
+      }
+
+      #contact_us h3{
+        font-size: 0.8em;
+      }
+    
+      #contact_us h4{
+        margin-top: 40%;
+        font-size: 0.9rem;
+      }
+
+      .reach_wrap li:nth-child(2){
+        font-size: 0.7em;
+      } 
+
+      .cen_con h3{
+        font-size: 18px;
+      }
+
+      #contact_us .sns_icon .sns img {
+        max-width: 40px;
+        margin-left: 25%;
+      }
 }
