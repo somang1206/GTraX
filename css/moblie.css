@@ -59,6 +59,30 @@
     max-width: 77%;
   }
 
+  #roadmap {
+    padding: 110px 0;
+  }
+
+  #contact_us h4 {
+    color: #222222 !important;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .cen_con {
+    width: 65%;
+  }
+
+  #contact_us h3 {
+    max-width: 30%;
+  }
+
+  footer .footer_withe {
+    width: 90%;
+  }
+
 }
 
 
@@ -85,7 +109,6 @@
 
   #about03 .bg_box {
     width: 100%;
-    height: 45%;
   }
 
   .ab03_wrap {
@@ -116,9 +139,6 @@
 
   /*coin*/
 
-  .coin_wrap>p {
-    font-size: 0.9em;
-  }
 
   .coin_left_txt {
     font-size: 0.75em;
@@ -132,6 +152,36 @@
     font-size: 0.8em;
   }
 
+
+  #contact_us h4 {
+    margin-top: 11%;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .contactus_container {
+    margin-top: 5%;
+  }
+
+  .reach {
+    height: 70%;
+  }
+
+  .reach_wrap li:nth-child(3) {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+
+  #contact_us h3 {
+    max-width: 40%;
+    padding: 5px;
+  }
+
+  #contact_us .con_bg {
+    height: 32%;
+  }
 
 }
 
@@ -185,8 +235,12 @@
 
   /*coin*/
 
-  .coin_wrap>p {
-    font-size: 0.75em;
+  .coin_wrap>p br {
+    display: none;
+  }
+
+  .coin_wrap>p br.must {
+    display: block;
   }
 
   .coin_box {
@@ -211,6 +265,41 @@
     margin: 0 auto;
   }
 
+  #contact_us h5 {
+    margin-top: 22%;
+}
+
+
+  .reach_wrap li:nth-child(3) {
+    font-size: 0.8em;
+  }
+
+  #contact_us {
+    width: 100%;
+    background: #E3E3E3;
+    padding: 80px 0;
+    position: relative;
+  }
+
+
+  footer .footer_wrap {
+    align-items: flex-start;
+  }
+
+  footer .footer_withe {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  footer .footer_wrap .footer_withe button {
+    width: 55%;
+  }
+
+  footer .footer_wrap .footer_withe .w_paper_k {
+    margin-right: 0;
+    margin-bottom: 2%;
+  }
 
 
 
@@ -249,13 +338,89 @@
 
   /*coin*/
 
-  .coin_wrap>p br {
-    display: none;
-  }
 
   .coin_left_txt span {
     width: 100%;
     padding: 1% 3% 0;
+  }
+
+  .rdmap_wrap {
+    border-radius: 20px;
+    padding: 80px 0;
+  }
+
+  .rdmap_wrap>.rdmap_img {
+    width: 90%;
+  }
+
+  .rdmap_img {
+    display: none;
+  }
+
+  .rdmap_img_mb {
+    display: block;
+    width: 100%;
+  }
+
+  .rdmap_img_mb img {
+    text-align: center;
+    max-width: 60%;
+  }
+
+  .reach_wrap li:nth-child(3) {
+    font-size: 0.6em;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .reach {
+    width: 60%;
+    height: 272px;
+    border-radius: 8px;
+    box-shadow: 6px 5px 5px #999;
+    margin-bottom: 13%;
+  }
+
+  .sns_icon {
+    justify-content: space-evenly;
+  }
+
+  #contact_us .con_bg {
+    height: 13%;
+  }
+
+  #contact_us h5 {
+    position: relative;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 10%;
+  }
+
+  #cen_con h3 {
+    font-size: 1.4em;
+  }
+
+
+  .cen_con h3 {
+    font-size: 30px;
+  }
+
+  .contactus_container {
+    width: 100%;
+    gap: 10%;
+    margin-top: 7%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  footer .footer_wrap h6 {
+    width: 100%;
+    text-align: right;
+  }
+
+  footer .footer_wrap .footer_withe button {
+    width: 74%;
   }
 
 }
@@ -338,7 +503,7 @@
 
   .coin_wrap>p {
     margin-bottom: 7%;
-    line-height: 1.8;
+
   }
 
   .symbol p,
@@ -353,6 +518,29 @@
 
   .coin_box_right {
     width: 100%;
+  }
+
+  .contactus_container {
+    display: block;
+  }
+
+  .reach {
+    width: 60%;
+    margin: 0 auto;
+    padding: 6% 0 3%;
+    margin-bottom: 5%;
+  }
+
+
+
+  #contact_us h4 {
+    margin-top: 35%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .cen_con h3 {
+    font-size: 25px;
   }
 }
 
@@ -374,25 +562,84 @@
 
   #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box strong {
     font-size: .9rem;
-}
+  }
 
-#about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p {
-  font-size: .8em;
-}
+  #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p {
+    font-size: .8em;
+  }
 
-#about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p br{
-  display: none;
-}
+  #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p br {
+    display: none;
+  }
 
-#about03 .ab03_wrap .about03_left .ab03_box .about03_left_box {
-  padding: 6% 5%;
-  height: 240px;
-  border-radius:10px;
-}
+  #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box {
+    padding: 6% 5%;
+    height: 240px;
+    border-radius: 10px;
+  }
 
-#about03 .bg_box {
-  height: 59%;
-}
+  #about03 .bg_box {
+    height: 59%;
+  }
+
+  #contact_us {
+    background-position: -240px 0;
+    padding: 10% 0;
+  }
+
+  #contact_us h3 {
+    max-width: 60%;
+  }
+
+  .reach {
+    margin-bottom: 10%;
+    height: 220px;
+  }
+
+  .cen_con {
+    width: 100%;
+  }
+
+  #contact_us .con_bg {
+    height: 11%;
+  }
+
+  footer .footer_wrap {
+    flex-direction: column;
+  }
+
+  footer .footer_wrap .f_logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer .footer_wrap .f_logo a img {
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  footer .footer_withe {
+    margin-top: 5%;
+    align-items: center;
+  }
+
+
+  footer .footer_wrap h6 {
+    text-align: center;
+  }
+
+  footer {
+    padding: 100px 0;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  #contact_us .sns_icon .sns {
+    margin-top: 40px;
+  }
 
 }
 
@@ -401,17 +648,46 @@
 /*모바일4 아이폰*/
 @media screen and (max-width:375px) {
 
-  
+
 
   .coin_right_contents {
     margin-bottom: 10%;
-}
+  }
 
-#about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p {
-  font-size: .7em;
-}
+  #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p {
+    font-size: .7em;
+  }
 
-#about03 .ab03_wrap .about03_left .ab03_box .about03_left_box strong {
-  font-size: .8rem;
-}
+  #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box strong {
+    font-size: .8rem;
+  }
+
+  #roadmap h3 {
+    font-size: 25px;
+  }
+
+
+
+  #contact_us h4 {
+    margin-top: 40%;
+    font-size: 0.9rem;
+  }
+
+  .reach {
+    height: 200px;
+  }
+
+  .reach_wrap li:nth-child(2) {
+    font-size: 0.7em;
+  }
+
+  .cen_con h3 {
+    font-size: 18px;
+  }
+
+
+  footer .footer_wrap h6 {
+    color: #fff;
+    font-size: 1em;
+  }
 }

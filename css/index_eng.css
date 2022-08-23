@@ -6,6 +6,7 @@
         padding: 6%;
     }
 
+      
     @media screen and (max-width:1440px) {
         #about03 .ab03_wrap .about03_left .ab03_box .about03_left_box p br{
             display: none;
