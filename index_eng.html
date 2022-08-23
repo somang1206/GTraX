@@ -1,43 +1,207 @@
 <!DOCTYPE html>
-<html lang="eng" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
+<html lang="ko" dir="ltr">
 
-    <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="le=edge">
+<head>
+  <meta charset="utf-8">
+  <title></title>
 
-    <!--js-->
-      <script src ="http://code.jquery.com/jquery-latest.js"></script>
-	  
-	 <!--bootstrap-->
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--meta-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
 
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
 
-    <!--css-->
-	  <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/index.css">
-      <link rel="stylesheet" href="css/moblie.css">
-	  <link rel="stylesheet" href="css/index_eng.css">
-
-    <!--favicon--->
-      <link href="img/favicon.ico" rel="icon">
-      <link href="img/favicon.ico" rel="apple-touch-icon">
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-  </head>
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+  <link rel="stylesheet" href="css/index_eng.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
 
 
-
-  <body>
+</head>
 
 
 
+<body>
+
+
+  <header>
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <h1><a href=""><img src="img/f_logo.png" alt="logo"></a></h1>
+
+      </hgroup>
+
+
+      <nav class="pc_wrap">
+        <ul>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="eng_site"><a href="index.html"><img src="img/header_kor.png" alt="eng_site_button"></a>
+        </ul>
+      </nav>
+
+
+      <!--반응형-->
+
+      <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
+
+      <nav class="wrapper">
+
+        <ul>
+          <li><a href="#home" class="scroll">HOME</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index.html"><img src="img/header_kor.png" alt="eng_site_button"></a>
+        </ul>
+
+      </nav>
+
+      <!--반응형 js-->
+      <script type="text/javascript">
+        $(function () {
+          $(".mob_butt").click(function () {
+            $(".mb_wrap").animate({ width: "toggle" }, 250);
+          });
+        });
+
+      </script>
+
+    </div>
+
+  </header>
 
 
 
-  </body>
+
+  <main>
+
+    <section id="home">
+
+      <div class="main_video">
+
+        <video autoplay muted loop playsinline>
+          <source src="video/main_vid.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <div class="main_box">
+
+        <div class="main_txt">
+
+          <h2><b>GTraX</b></h2>
+
+          <p>
+            Global blockchain payments platform for global <br> economic liberalism and economic justice
+            <br>
+            <span>By leveraging the advantages of blockchain,<br>
+              we help businesses to succeed through payment services<br>
+              with various currencies and low fees.
+
+            </span>
+          </p>
+
+          <div class="main_bt">
+            <a href="GTraX white paper Ver.01- Eng.pdf">Whitepaper</a>
+            <a href="">Wallet</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="about">
+      <div class="about_area container">
+
+        <div class="about_txt">
+          <h3>Intro</h3>
+          <p>Due to the spread of 5G Internet,<br> the world is accelerating global financial integration and economic
+            unity. <br>
+            <br>
+            However, more than 2 billion people around the world still do not have access to banking.
+            <br>
+            More than 70% of the world's land is financially barren without financial services.
+            <br>
+            Huge financial power is concentrated in mega-global financial companies and countries with key currencies.
+            <br>
+            GtraX solves global financial problems and secures high business profitability by<br> introducing a payment
+            platform with transparency, low cost, and efficiency.
+
+          </p>
+        </div>
+
+        <div class="about_img">
+          <img src="img/ab_img.png" alt="">
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <section id="about02">
+      <div class="about02_area container">
+
+        <div class="about02_txt">
+          <h3>GTraX
+            ERC20
+            Network</h3>
+
+          <p>Securing members through low fees, expanding merchants through various payments,<br>
+
+            Users of GtraX Pay are the greatest beneficiaries of our services and profits.
+
+          </p>
+
+          <article>
+            The ERC20 blockchain system introduced to G-trax builds a global<br> network in detail to eliminate financial
+            blind spots and solve the<br> problems of the existing payment service.
+
+            <br>
+            Stable transaction through the implementation of high TPS (TPS: Transaction per second)<br>
+            <br>
+            Preventing transaction information leakage through the immutability of blockchain<br>
+            <br>
+            Increase user benefits with low blockchain fees<br>
+            <br>
+            The benefits received by financial platform participants are again provided as a reward to individual users
+
+          </article>
+        </div>
+
+        <div class="about02_img">
+          <img src="img/ab2_img.png" alt="ab2_img">
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+</body>
 
 
 </html>

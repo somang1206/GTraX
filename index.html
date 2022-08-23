@@ -1,103 +1,201 @@
 <!DOCTYPE html>
 <html lang="ko" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
 
-    <!--meta-->
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <meta http-equiv="X-UA-Compatible" content="le=edge">
+<head>
+  <meta charset="utf-8">
+  <title></title>
 
-    <!--js-->
-      <script src ="http://code.jquery.com/jquery-latest.js"></script>
-	  
-	 <!--bootstrap-->
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--meta-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
 
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
 
-    <!--css-->
-	  <link rel="stylesheet" href="css/reset.css">
-      <link rel="stylesheet" href="css/index.css">
-      <link rel="stylesheet" href="css/moblie.css">
-
-    <!--favicon--->
-      <link href="img/favicon.ico" rel="icon">
-      <link href="img/favicon.ico" rel="apple-touch-icon">
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-  </head>
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+
+</head>
 
 
 
-  <body>
+<body>
 
 
-    <header>
+  <header>
 
-      <div class="">
+    <div class="hd_all">
 
-        <hgroup>
+      <hgroup>
 
-          <h1><img src="img/.png" alt="logo"></h1>
+        <h1><a href=""><img src="img/f_logo.png" alt="logo"></a></h1>
 
-        </hgroup>
-
-
-        <nav class="">
-          <ul>
-
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-
-          </ul>
-        </nav>
+      </hgroup>
 
 
-        <!--반응형-->
+      <nav class="pc_wrap">
+        <ul>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li class="eng_site"><a href="index_eng.html"><img src="img/header_eng.png" alt="eng_site_button"></a>
+        </ul>
+      </nav>
 
-        <div class="">
 
-          <img src="img/.png" alt="menu_button">
+      <!--반응형-->
 
-        </div>
+      <!-- <div class="mob_butt">
 
-        <nav class="">
+        <img src="img/mb_bt.png" alt="menu_button">
 
-          <ul>
+      </div> -->
 
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
-            <li><a href="" class="scroll"></a></li>
+      <input type="checkbox" id="active">
+    <label for="active" class="menu-btn"><span></span></label>
+    <label for="active" class="close"></label>
 
-          </ul>
+      <nav class="wrapper">
 
-        </nav>
+        <ul>
+          <li><a href="#home" class="scroll">HOME</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/header_eng.png" alt="eng_site_button"></a>
+        </ul>
 
-                  <!--반응형 js-->
-                <script type="text/javascript">
-                      $(function() {
-                $("").click(function() {
-                  $("").animate({width:"toggle"},250);
-                });
-                });
+      </nav>
 
-                </script>
+      <!--반응형 js-->
+      <!-- <script type="text/javascript">
+        $(function () {
+          $(".mob_butt").click(function () {
+            $(".mb_wrap").animate({ width: "toggle" }, 250);
+          });
+        });
+
+      </script> -->
+
+    </div>
+
+  </header>
+
+
+
+
+  <main>
+
+    <section id="home">
+
+      <div class="main_video">
+
+        <video autoplay muted loop playsinline>
+          <source src="video/main_vid.mp4" type="video/mp4">
+        </video>
 
       </div>
 
-    </header>
+      <div class="main_box">
+
+        <div class="main_txt">
+
+          <h2><b>GTraX</b></h2>
+
+          <p>
+            글로벌 경제자유주의,<br class="must"> 경제 정의를 구현하는<br>블록체인 기반 글로벌 페이(Pay) 플랫폼<br>
+            <span>블록체인의 장점의 극대화를 통한 <br>
+              금융사각지대에 서비스를 제공하고<br>
+              다양한 통화를 통한 결제 서비스와 낮은 수수료로<br>
+              높은 사업 수익성을 확보합니다
+            </span>
+          </p>
+
+          <div class="main_bt">
+            <a href="NukPLAN white paper Ver.01- Kor.pdf">Whitepaper</a>
+            <a href="https://nukplan.com/">Wallet</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="about">
+      <div class="about_area container">
+
+        <div class="about_txt">
+          <h3>Intro</h3>
+          <p>5G인터넷의 보급으로 인해 세계는 경제공동화 현상이 가속화되고 있습니다.<br class="must">
+            그러나 아직도 전세계에는 20억 이상의 인구가 은행서비스를 이용하지 못 하고 있습니다.<br>
+            전세계의 토지 중 70% 이상이 금융서비스가 제공되지 않는 금융불모지 입니다.<br class="must"><br class="must">
+            거대한 금융권력이 초대형 글로벌 금융기업과 기축통화 보유 국가에 집중되고 있습니다.<br>
+            GTraX는 이러한 문제에 블록체인을 통한 투명성, 저비용, 효율성 기반 pay(페이)플랫폼을<br>
+            도입하여 글로벌 금융 문제를 해결하고 높은 사업 수익성을 확보합니다.
+          </p>
+
+        </div>
+
+        <div class="about_img">
+          <img src="img/ab_img.png" alt="">
+        </div>
 
 
 
-    
+      </div>
+    </section>
+
+    <section id="about02">
+      <div class="about02_area container">
+
+        <div class="about02_txt">
+          <h3>GTraX
+            ERC20
+            Network</h3>
+
+          <p>낮은 수수료를 통한 기업회원 확보, 다양한 결제를 통한 가맹점 확장,<br>
+
+            모두 GTraX 페이 사용 회원에게 혜택이 되어 돌아옵니다.
+          </p>
+
+          <article>
+            지트랙스가 도입한 ERC20 블록체인 시스템은 글로벌 네트워크를<br>
+            세밀하게 구축하여 금융사각지대를 없애고, 기존 pay사업의 문제를 해결합니다.<br class="must">
+            <br class="must">
+            빠른 초당 거래속도 (TPS: Transaction per second) 구현을 통한 거래안전성<br>
+            블록체인의 비가역적 보안성을 통한 금융거래 유출 원천방지<br>
+            낮은 블록체인 수수료를 이용한 사용자 혜택 증대<br>
+            금융 플랫폼 참여자들이 받은 혜택이 다시 개인회원에게 보상으로<br>
+          </article>
+        </div>
+
+        <div class="about02_img">
+          <img src="img/ab2_img.png" alt="ab2_img">
+        </div>
+      </div>
+    </section>
 
 
-  </body>
+  </main>
+
+
+</body>
 
 
 </html>
