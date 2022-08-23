@@ -94,6 +94,10 @@
     margin-right: 10px;
   }
 
+  #home .main_box {
+    padding: 113px 70px;
+  }
+
   .main_txt .main_bt a {
     display: inline-block;
     width: 47%;
@@ -199,6 +203,8 @@
 
   #home .main_box {
     width: 80%;
+
+    padding: 73px 70px;
   }
 
   .main_txt .main_bt a {
@@ -267,7 +273,7 @@
 
   #contact_us h5 {
     margin-top: 22%;
-}
+  }
 
 
   .reach_wrap li:nth-child(3) {
@@ -551,10 +557,14 @@
 /*모바일3 갤럭시*/
 
 @media screen and (max-width:425px) {
-  #home .main_box {
-    top: 52%;
-    height: 55%;
+
+  h3{
+    font-size: 1.5em;
   }
+  #home .main_box {
+    top: 55%;
+    height: 70%;
+}
 
   .main_box .main_txt p br.must {
     display: block;
