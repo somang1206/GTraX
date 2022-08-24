@@ -304,7 +304,7 @@
 
   footer .footer_wrap .footer_withe .w_paper_k {
     margin-right: 0;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
   }
 
 
@@ -447,7 +447,7 @@
 
   #home .main_box {
     top: 60%;
-    padding: 65px 28px;
+    padding: 117px 29px;
   }
 
   .main_txt h2 {
@@ -511,6 +511,11 @@
     margin-bottom: 7%;
 
   }
+
+  .coin_wrap>p br.must {
+    display: none;
+  }
+
 
   .symbol p,
   .protocol p {
