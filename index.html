@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <!--meta-->
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="le=edge">
+
+  <!--js-->
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+
+  <!--bootstrap-->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!--css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/moblie.css">
+
+  <!--favicon--->
+  <link href="img/favicon.ico" rel="icon">
+  <link href="img/favicon.ico" rel="apple-touch-icon">
+
+
+</head>
+
+
+
+<body>
+
+
+  <header>
+
+    <div class="hd_all">
+
+      <hgroup>
+
+        <h1><a href=""><img src="img/f_logo.png" alt="logo"></a></h1>
+
+      </hgroup>
+
+
+      <nav class="pc_wrap">
+        <ul>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact_us" class="scroll">Contact</a></li>
+          <li class="eng_site"><a href="index_eng.html"><img src="img/header_eng.png" alt="eng_site_button"></a>
+        </ul>
+      </nav>
+
+
+      <!--반응형-->
+
+      <!-- <div class="mob_butt">
+
+        <img src="img/mb_bt.png" alt="menu_button">
+
+      </div> -->
+
+      <input type="checkbox" id="active">
+      <label for="active" class="menu-btn"><span></span></label>
+      <label for="active" class="close"></label>
+
+      <nav class="wrapper">
+
+        <ul>
+          <li><a href="#home" class="scroll">HOME</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#coin" class="scroll">GTraX Coin</a></li>
+          <li><a href="#roadmap" class="scroll">Roadmap</a></li>
+          <li><a href="#contact_us" class="scroll">Contact</a></li>
+          <li><a href="index_eng.html"><img src="img/header_eng.png" alt="eng_site_button"></a>
+        </ul>
+
+      </nav>
+
+      <!--반응형 js-->
+      <!-- <script type="text/javascript">
+        $(function () {
+          $(".mob_butt").click(function () {
+            $(".mb_wrap").animate({ width: "toggle" }, 250);
+          });
+        });
+
+      </script> -->
+
+    </div>
+
+  </header>
+
+
+
+
+  <main>
+
+    <section id="home">
+
+      <div class="main_video">
+
+        <video autoplay muted loop playsinline>
+          <source src="video/main_vid.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+      <div class="main_box">
+
+        <div class="main_txt">
+
+          <h2><b>GTraX</b></h2>
+
+          <p>
+            글로벌 경제자유주의,<br class="must"> 경제 정의를 구현하는<br>블록체인 기반 글로벌 페이(Pay) 플랫폼<br>
+            <span>블록체인의 장점의 극대화를 통한 <br>
+              금융사각지대에 서비스를 제공하고<br>
+              다양한 통화를 통한 결제 서비스와 낮은 수수료로<br>
+              높은 사업 수익성을 확보합니다
+            </span>
+          </p>
+
+          <div class="main_bt">
+            <a href="GTraX white paper Ver.01- Kor.pdf">Whitepaper</a>
+            <a href="">Wallet</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="about">
+      <div class="about_area container">
+
+        <div class="about_txt">
+          <h3>Intro</h3>
+          <p>5G인터넷의 보급으로 인해 세계는 경제공동화 현상이 가속화되고 있습니다.<br class="must">
+            그러나 아직도 전세계에는 20억 이상의 인구가 은행서비스를 이용하지 못 하고 있습니다.<br>
+            전세계의 토지 중 70% 이상이 금융서비스가 제공되지 않는 금융불모지 입니다.<br class="must"><br class="must">
+            거대한 금융권력이 초대형 글로벌 금융기업과 기축통화 보유 국가에 집중되고 있습니다.<br>
+            GTraX는 이러한 문제에 블록체인을 통한 투명성, 저비용, 효율성 기반 pay(페이)플랫폼을<br>
+            도입하여 글로벌 금융 문제를 해결하고 높은 사업 수익성을 확보합니다.
+          </p>
+
+        </div>
+
+        <div class="about_img">
+          <img src="img/ab_img.png" alt="">
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <section id="about02">
+      <div class="about02_area container">
+
+        <div class="about02_txt">
+          <h3>GTraX
+            ERC20
+            Network</h3>
+
+          <p>낮은 수수료를 통한 기업회원 확보, 다양한 결제를 통한 가맹점 확장,<br>
+
+            모두 GTraX 페이 사용 회원에게 혜택이 되어 돌아옵니다.
+          </p>
+
+          <article>
+            지트랙스가 도입한 ERC20 블록체인 시스템은 글로벌 네트워크를<br>
+            세밀하게 구축하여 금융사각지대를 없애고, 기존 pay사업의 문제를 해결합니다.<br class="must">
+            <br class="must">
+            빠른 초당 거래속도 (TPS: Transaction per second) 구현을 통한 거래안전성<br>
+            블록체인의 비가역적 보안성을 통한 금융거래 유출 원천방지<br>
+            낮은 블록체인 수수료를 이용한 사용자 혜택 증대<br>
+            금융 플랫폼 참여자들이 받은 혜택이 다시 개인회원에게 보상으로<br>
+          </article>
+        </div>
+
+        <div class="about02_img">
+          <img src="img/ab2_img.png" alt="ab2_img">
+        </div>
+      </div>
+    </section>
+
+
+    <section id="about03">
+      <div class="bg_box"></div>
+      <div class="ab03_wrap container">
+        <div class="about03_left">
+
+          <h3>GTraX 생태계 참여자</h3>
+
+          <div class="ab03_box">
+
+            <div class="about03_left_box">
+              <img src="img/ab3_icon1.png" alt="ab3_icon1">
+
+              <strong>기존 글로벌 카드 사업자</strong>
+              <span> &nbsp</span>
+
+              <p>금융결제 네트워크 서비스를<br>
+                제공하고 사용료 수익을<br> 지급 받습니다.</p>
+            </div>
+
+            <div class="about03_left_box">
+              <img src="img/ab3_icon2.png" alt="ab3_icon2">
+
+              <strong> 글로벌 현지 PG사</strong>
+              <span>(payment gateway:<br> 지불결제 사업자)</span>
+
+              <p>높은 결제 서비스 수수료를<br>
+                가맹점에 제공하여 더 많은<br>
+                가맹점을 확보 합니다.</p>
+            </div>
+
+            <div class="about03_left_box">
+              <img src="img/ab3_icon3.png" alt="ab3_icon3">
+
+              <strong>결제 서비스 이용 가맹점 </strong>
+
+              <span>(Merchants)</span>
+              <p>더 다양한 결제수단, 더 다양한<br>
+                결제통화로 더 많은 소비자에게<br>
+                접근하게 됩니다.</p>
+            </div>
+
+            <div class="about03_left_box">
+              <img src="img/ab3_icon4.png" alt="ab3_icon4">
+
+              <strong>개인 카드 사용자</strong>
+              <span> &nbsp</span>
+
+              <p>금융 네트워크의 고도화로<br>
+                발생된 추가 수익은 소비자에게<br>
+                혜택이 되어 돌아갑니다.</p>
+            </div>
+          </div><!-- ab03_left_down -->
+
+
+        </div><!-- about03_left -->
+
+
+
+        <div class="about03_right">
+          <img src="img/ab3_diagram.png" alt="ab3_diagram">
+        </div><!-- about03_right -->
+
+      </div><!-- ab03_wrap -->
+    </section><!-- about03 -->
+
+
+
+
+
+    <section id="coin">
+      <div class="coin_wrap container">
+        <h3>GTraX Coin</h3>
+
+        <p>글로벌 프로젝트로서 각국의 다양한 금융규제 등에 원활하게 대응하기 위해
+          <br> 국제법률자문
+          서비스에 높은 비중의 자금을 사용하며, <br class="must"> 국제인터넷 망 결제 플랫폼을 사전에 구축하여
+          <br>실서비스 개통 시 완벽한 거래를 진행 하며, 사용자들에게 동시에 최대의<br class="must">
+          혜택이 제공 될 수 있도록<br>
+          자금 계획을 수립하였습니다.
+        </p>
+
+        <div class="coin_box">
+
+          <div class="coin_box_left">
+            <div class="coin_left_txt">
+
+              <span class="name">
+                <h4>Coin Name</h4>
+                <p>GTrax</p>
+              </span>
+              <span class="symbol">
+                <h4>Symbol</h4>
+                <p>GTRX</p>
+              </span>
+              <span class="protocol">
+                <h4>Protocol</h4>
+                <p>ERC20</p>
+              </span>
+              <span class="total">
+                <h4>Total Supply</h4>
+                <p>150,000,000</p>
+              </span>
+            </div><!-- coin_left_txt -->
+
+            <div class="coin_left_circle">
+              <img src="img/coin_graph.png" alt="coin_graph">
+            </div>
+          </div><!-- coin_box_left -->
+
+
+
+
+
+
+
+
+          <div class="coin_box_right">
+            <div class="coin_right_wrap">
+
+              <div class="coin_right_contents">
+                <aside class="box1"></aside>
+                <strong>Token Sale</strong>
+                <span>20%</span>
+              </div>
+              <div class="coin_right_contents">
+                <aside class="box2"></aside>
+                <strong>PG company
+                  contract promotion</strong>
+                <span>20%</span>
+              </div>
+              <div class="coin_right_contents">
+                <aside class="box3"></aside>
+                <strong>Legal advisory</strong>
+                <span>20%</span>
+              </div>
+              <div class="coin_right_contents">
+                <aside class="box4"></aside>
+                <strong>International internet network<br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and payment platform license</strong>
+                <span>10%</span>
+              </div>
+              <div class="coin_right_contents">
+                <aside class="box5"></aside>
+                <strong>Ecosystem incentives</strong>
+                <span>20%</span>
+              </div>
+              <div class="coin_right_contents">
+                <aside class="box6"></aside>
+                <strong>Team</strong>
+                <span>10%</span>
+              </div>
+
+            </div><!-- coin_right_wrap -->
+
+          </div><!-- coin_box_right -->
+        </div><!-- coin_box -->
+      </div><!-- coin_wrap -->
+
+    </section>
+
+
+    <section id="roadmap">
+      <h3>Roadmap</h3>
+
+      <div class="rdmap_wrap container">
+        <div class="rdmap_img"><img src="img/roadmap_w_ko.png" alt="rdmap_pc"></div>
+        <div class="rdmap_img_mb"><img src="img/roadmap_w_ko_m.png" alt="roadmap_mobile"></div>
+      </div><!-- rdmap_wrap -->
+    </section><!-- roadmap -->
+
+
+
+    <section id="contact_us">
+      <div class="con_bg"></div>
+      <h3>Contact Us</h3>
+      <h5>Reach Us</h5>
+
+      <div class="contactus_container container">
+        <div class="reach">
+          <ul class="reach_wrap">
+            <li><img src="img/Address_icon.png" alt="reach_ic1"></li>
+            <li>ADDRESS</li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="reach">
+          <ul class="reach_wrap">
+            <li><img src="img/Phone_icon.png" alt="reach_ic2"></li>
+            <li>PHONE</li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="reach">
+          <ul class="reach_wrap">
+            <li><img src="img/Ceo_icon.png" alt="reach_ic3"></li>
+            <li>CEO</li>
+            <li></li>
+          </ul>
+        </div>
+      </div><!-- contactus_container -->
+
+      <div class="sns_icon container">
+
+        <div class="sns">
+          <ul class="sns_wrap">
+            <li><a href=""><img src="img/sns_icon_telegram.png" alt="sns_ic2"></a></li>
+          </ul>
+        </div>
+
+        <div class="sns">
+          <ul class="sns_wrap">
+            <li><a href=""><img src="img/sns_icon_kakaotal.png" alt="sns_ic2"></a></li>
+          </ul>
+        </div>
+
+      </div><!-- sns_icon container -->
+
+    </section><!-- contact_us -->
+
+
+    <section id="contact">
+      <div class="contact_all container">
+        <div class="cen_con">
+          <h5>Get in Touch</h5>
+          <form class="gform" action="https://script.google.com/macros/s/AKfycbzXcSWDqFzq1acvFChJ2q8jAzcOVTBYQvA4c7LYKaeeqOzUvlFPZIymEeHpaET8CxgudQ/exec" data-email="kjng4400@gmail.com" method="">
+            <input type="email" value placeholder="E-mail" class="email" required>
+            <textarea name="message" id="message" placeholder="Message"></textarea>
+            <input type="submit" value="SEND" class="send">
+          </form>
+        </div>
+      </div><!-- contact_all -->
+
+    </section><!-- contact -->
+
+
+  </main>
+
+
+    <footer>
+      <div class="footer_wrap container">
+        <div class="f_logo"><a href=""><img src="img/f_logo.png" alt="footer_logo"></a></div>
+
+        <div class="footer_withe">
+          <h6>Whitepaper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|</h6>
+          <button class="w_paper_k">
+            <a href="GTraX white paper Ver.01- Kor.pdf">
+              Whitepaper_Kor
+              <span><img src="img/f_whitepaper_kor.png" alt="f_whitepaper_kor"></span>
+            </a>
+          </button>
+
+          <button class="w_paper_e">
+            <a href="GTraX white paper Ver.01- Eng.pdf">
+              Whitepaper_Eng
+              <span><img src="img/f_whitepaper_eng.png" alt="f_whitepaper_eng"></span>
+            </a>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+
+</body>
+
+
+</html>
